@@ -31,5 +31,15 @@ public class Common {
         WebElement webElement = getElement(locator);
         Select selectElement = new Select(webElement);
         selectElement.selectByValue(value);
+
+
+
+
+        public static void acceptAlert(){
+            Driver.getDriver().switchTo().alert().accept();
+        }
     }
 }
+
+
+

@@ -1,5 +1,4 @@
 package pages;
-
 import org.openqa.selenium.By;
 
 public class Locators {
@@ -34,6 +33,14 @@ public class Locators {
             }
             public static By buttonGetCheckedValue = By.xpath("//*[@id='buttoncheck']");
             public static By fieldCheckedValue = By.xpath("//*[@class='radiobutton']");
+            public static By inputByGenderGroup(String gender){
+                return By.xpath();
+
+                public static class JavascriptAlerts{
+                    public static By button
+                }
+
+            }
         }
     }
 }
